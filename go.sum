@@ -1,0 +1,6 @@
+github.com/gorilla/mux v1.8.0 h1:1w7J3bdUL7WeqqdR3TYCDBW6+WyMDvKBp7I9X2JXY/s=
+github.com/gorilla/mux v1.8.0/go.mod h1:xnvUGeGvtO2bWlO1D1To4yCd2xtzwVfy+xw6lhjrBzE=
+github.com/joho/godotenv v1.5.1 h1:ARkucFN8YWwwBgAyZTtpNRaovWhN85rXhso4VC4WBR4=
+github.com/joho/godotenv v1.5.1/go.mod h1:EHwhWt1HbtyH+AZFVb2ZcX6U5hoie91OioN53M4quHI=
+go.mongodb.org/mongo-driver v1.11.0 h1:YuQb8ONaW1R2NTXWt7R5WB99PC2daLnZy+QkA07Jem8=
+go.mongodb.org/mongo-driver v1.11.0/go.mod h1:ATTXNhPupGM+YcNmsNfnD9ID3hgFnNZk7pjp35e8MMw=
