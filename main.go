@@ -79,7 +79,7 @@ func main() {
         s := mux.NewRouter()
 	s.HandleFunc("/", signUpHandlers).Methods("GET")
 	
-	port := os.Getenv("PORT") || 4000
+	port := os.Getenv("PORT")
 	fmt.Printf("Server running on port %s\n", port)
 	//log.Fatal(http.ListenAndServe(":"+port, r))
 	log.Fatal(http.ListenAndServe(":"+port, s))
