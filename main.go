@@ -74,13 +74,13 @@ func signUpHandlers() {
 }
 
 func main() {
-	//r := mux.NewRouter()
-	//r.HandleFunc("/signup", signUpHandler).Methods("POST")
-        s := mux.NewRouter()
-	s.HandleFunc("/", signUpHandlers).Methods("GET")
+	r := mux.NewRouter()
+	r.HandleFunc("/signup", signUpHandler).Methods("POST")
+        //s := mux.NewRouter()
+	//s.HandleFunc("/", signUpHandlers).Methods("GET")
 	
 	port := os.Getenv("PORT")
 	fmt.Printf("Server running on port %s\n", port)
-	//log.Fatal(http.ListenAndServe(":"+port, r))
-	log.Fatal(http.ListenAndServe(":"+port, s))
+	log.Fatal(http.ListenAndServe(":"+port, r))
+	//log.Fatal(http.ListenAndServe(":"+port, s))
 }
