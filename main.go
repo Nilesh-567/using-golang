@@ -69,7 +69,7 @@ func signUpHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(map[string]string{"message": "User registered successfully"})
 }
 
-fun signupHandlers() {
+func signupHandlers() {
 	fmt.Printf("get method responds successfully ")
 }
 
